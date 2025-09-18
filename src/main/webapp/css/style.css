@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #87CEFA, #1E90FF);
+    background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/potw2024a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.header {
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.logo {
+    width: 80px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    background-color: #111;
+}
