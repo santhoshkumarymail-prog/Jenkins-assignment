@@ -9,7 +9,7 @@
 <body>
 <div class="header">
     <img src="images/wolf.png" alt="Wolf Logo" class="logo">
-    <h1>This web application was created for Jenkins L4 assignment</h1>
+    <h1>This web application was created for Jenkins assignment</h1>
     <h2>Hi this is Santhosh</h2>
 </div>
 
